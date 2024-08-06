@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #161616;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+body{
+    background-color: #161616;
+}
+.navbar-link{
+    color: white;
+}
+.navbar a{
+    color: white;
+    font-size: 15px;
+
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar-brand{
+    margin-left: 5%;
+}
+.navbar-nav{
+    margin-left: 10%;
+}
+.nav-link{
+    margin-left: 68px;
+    text-transform: uppercase;
+    font-family: "Source Code Pro", monospace;
+}
+.navbar{
+    margin-top: 30px;
+}
+.navbar-nav a:hover{
+    border-bottom: 1px solid #f57d05;
+}
+#nav1{
+    border-bottom: 1px solid #f57d05;
+
+}
+.main1{
+    height: 680px;
+}
+.main1 .row{
+    background-image: url(img/102.jpg);
+    background-size: cover;
+    background-size: 100% 140%;
+    background-position: center;
+    height: 100%;
+}
+.main1 .row .col{
+    padding-top: 150px;
+    padding-left: 5%;
+    background-color: transparent
+}
+.main1 .col a{
+    font-size: 14px;
+    font-family: "Source Code Pro", monospace;
+    text-decoration: none;
+    color: #f57d05;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.main1 .col h1{
+    font-size: 55px;
+    color: white;
+    background-color: transparent;
+    font-family: "Source Code Pro", monospace;
+    padding-bottom: 30px;
+
+}
+
+
+.btn-31,
+.btn-31 *,
+.btn-31 :after,
+.btn-31 :before,
+.btn-31:after,
+.btn-31:before {
+  box-sizing: border-box;
+  border: 1px transparent;
+  background-color: transparent;
+}
+
+.btn-31 {
+  -webkit-tap-highlight-color: transparent;
+  /* -webkit-appearance: button; */
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  height: 49.6px;
+  width: 167.7px;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  /* -webkit-mask-image: -webkit-radial-gradient(#000, #fff); */
+  padding-bottom: 40px;
+}
+
+.btn-31:disabled {
+  cursor: default;
+}
+
+.btn-31:-moz-focusring {
+  outline: auto;
+}
+
+.btn-31 svg {
+  display: block;
+  /* vertical-align: middle; */
+}
+
+.btn-31 [hidden] {
+  display: none;
+}
+
+.btn-31 {
+  border-width: 1px;
+  padding: 1rem 2rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-31:before {
+  --progress: 100%;
+  background: #fff;
+  -webkit-clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transition: -webkit-clip-path 0.2s ease;
+  transition: clip-path 0.2s ease;
+  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
+}
+
+.btn-31:hover:before {
+  --progress: 0%;
+}
+
+.btn-31 .text-container {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-31 .text {
+  display: block;
+  font-weight: 900;
+  mix-blend-mode: difference;
+  position: relative;
+  font-family: "Source Code Pro", monospace;
+
+}
+
+.btn-31:hover .text {
+  -webkit-animation: move-up-alternate 0.3s ease forwards;
+  animation: move-up-alternate 0.3s ease forwards;
+}
+
+@-webkit-keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+.main2{
+    height: 289px;
+    padding-top: 184px;
+}
+.main2 .col{
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main3{
+    height: 500px;
+    padding-top: 140px;
+    padding-right: 109.6px;
+}
+.main3 .col{
+    height: 185px;
+    
+}
+
+.col h3{
+    font-size: 45px;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    margin-left:70.6px;
+}
+.c1{
+    display: flex;
+}
+.c2{
+    width: 75px;
+}
+.c2 img{
+    height: 51px;
+    width: 52px;
+}
+.c3{
+    width: 263px;
+    padding-top: 11px;
+}
+.c3 h4{
+    font-size: 22px;
+    font-family: "Source Code Pro", monospace;
+    color: white;
+    margin: 0px 0px 13px;
+}
+.c3 p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #737373;
+
+}
+
+
+.main4{
+    height: 776.14px;
+    margin-top: -70px;
+}
+.main4 .col img{
+  height: 776.14px;
+  width: 864.85px;
+}
+.e1{
+  padding: 172px 0px 0px 10px;
+}
+.e1 h6{
+  font-size: 13px;
+  font-family: "Source Code Pro", monospace;
+  color: #f57d05;
+  letter-spacing: 5px;
+}
+.e1 h3{
+  font-size: 45px;
+  font-family: "Source Code Pro", monospace;
+  margin-left: -0px;
+  margin-bottom: 30px;
+}
+.e1 ol li{
+  color: white;
+  font-size: 16px;
+  list-style: decimal-leading-zero;
+  font-family: "Source Code Pro", monospace;
+
+}
+.e1 ol li p{
+  color: #737373;
+  font-family: sans-serif;
+
+}
+
+
+.re1{
+  height: 324.8px;
+  padding: 82px 0px 0px;
+}
+.re2{
+  height: 145.8px;
+}
+.re1 .col{
+  margin-top: 40px;
+}
+.o1{
+  height: 54px;
+  display: flex;
+}
+.o2{
+  width: 95.13px;
+}
+.o3 h4{
+  font-size: 22px;
+  font-family: "Source Code Pro", monospace;
+  color: white;
+  margin-left: -15px;
+}
+.o3 h6{
+  font-size: 13px;
+  color: #f57d05;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  margin-left: -15px;
+}
+.re1 p{
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #737373;
+  margin-top: 18px;
+}
+.re2 p{
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #737373;
+  margin-top: 18px;
+}
+
+
+.main6{
+  height: 895.5px;
+}
+.main6 .row{
+  background-image:url(img/127.jpg);
+  height: 100%;
+}
+.main6 .col{
+  padding-top: 250px;
+  background-color: transparent;
+}
+.main6 h6{
+  color: #f57d05;
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: 3px;
+  margin-left: 80px;
+  background-color: transparent;
+}
+.main6 h3{
+  background-color: transparent;
+  margin-bottom: 28px;
+  font-size: 45px;
+  font-family: "Source Code Pro", monospace;
+}
+.main6 p{
+  background-color: transparent;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #737373;
+  margin-left: 80px;
+
+}
+
+
+.main7{
+  height: 612.7px;
+  position: relative;
+  top: -100px;
+  background-color: transparent;
+}
+.main7 h6{
+  font-size: 15px;
+  font-family: "Source Code Pro", monospace;
+  color: #f57d05;
+  letter-spacing: 3px;
+}
+.main7 h3{
+  font-size: 45px;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  margin-bottom: 50px;
+}
+
+.main8{
+  height: 432.7px;
+}
+.main8 .row .col h5{
+  color: white;
+  font-size: 22px;
+  font-family: "Source Code Pro", monospace;
+  margin-bottom: 11px;
+  margin-top: 37px;
+}
+.main8 .row .col p{
+  color: #737373;
+  font-size: 16px;
+  font-family: sans-serif;
+
+}
+
+
+
+.main9{
+  padding: 122px 0px 131px;
+  background-color: #121212;
+}
+.main10 .col{
+  background-color: #121212;
+
+}
+
+.p1 p{
+  font-size: 16px;
+  color: #737373;
+  font-family: sans-serif;
+  margin-top: 20px;
+    background-color: #121212;
+
+}
+.p1 a{
+  font-size: 17px;
+  color: white;
+  margin-left: 25px;
+    background-color: #121212;
+
+}
+.p2 h5{
+  font-size: 18px;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  margin-bottom: 20px;
+    background-color: #121212;
+
+}
+.x1{
+  height: auto;
+  display: flex;
+  padding-bottom: 18px;
+    background-color: #121212;
+
+
+}
+.x2{
+  width: 44px;
+    background-color: #121212;
+
+}
+.x2 i{
+  font-size: 17px;
+  color: white;
+    background-color: #121212;
+
+}
+.x3{
+  padding-left: 10px;
+  padding-top: 5px;
+    background-color: #121212;
+
+}
+.x3 a{
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #737373;
+  text-decoration: none;
+    background-color: #121212;
+
+}
+
+.p3 p{
+  color: #737373;
+  font-size: 16px;
+  font-family: sans-serif;
+    background-color: #121212;
+
+}
+
+.p4 h5{
+  color: white;
+  font-size: 18px;
+  font-family: "Source Code Pro", monospace;
+  margin-bottom: 20px;
+    background-color: #121212;
+
+}
+
+.p4 p{
+  color: #737373;
+  font-size: 16px;
+  font-family: sans-serif;
+    background-color: #121212;
+
+}
+.p4 img{
+  height: 42px;
+  width: 139px;
+  margin-top: 20px;
+    background-color: #121212;
+
+}

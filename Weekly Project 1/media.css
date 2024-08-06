@@ -1,0 +1,510 @@
+@media(min-width:0px) and (max-width:480px)
+{
+    header{
+        width: 100%;
+        background-color: white;
+    }
+    nav{
+        width: 100%;
+    }
+    .nav1{
+        margin-left: -120px;
+        background-color: white;
+    }
+    .nav2{
+        margin-left: -1000px;
+    }
+    .nav3{
+        display: none;
+    }
+    .nav4{
+        display: none;
+    }
+        .nav5{
+        display: none;
+    } 
+       .nav6{
+        display: none;
+    }
+    .nav7{
+        display: none;
+    }
+    .nav2 button{
+        margin-top: -200px;
+        position: relative;
+        top: -70px;
+        left: 700px;
+    }
+    #nav1{
+        display: block;
+        margin-left: -1000px;
+        margin-top: -00px;
+        position: relative;
+        top: -10px;
+    }
+    .d1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .d5{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .d6{
+        width: 100%;
+    }
+    .d7{
+        width: 100%;
+    }
+    .d2{
+        width: 100%;
+    }
+    .d4{
+        position: relative;
+        width: 100%;
+        margin-top: -100px;
+    }
+    .d8{
+        width: 100%;
+    }
+    .d8 input{
+        width: 150px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    .d8 button{
+        width: 150px;
+    }
+    .d8 p span{
+        margin-left: 0px;
+
+    }
+    .d4 h1 span{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .d4 p{
+        margin-top: -110px;
+    }
+    .d3{
+        width: 100%;
+        border: 1px solid;
+        margin-top: -320px;
+        background-size: 100% 100%;
+        height: 300px;
+    }
+    .main2{
+        width: 100%;
+        margin-top: 250px;
+    }
+    .d9{
+        width: 100%;
+    }
+    .d9 p{
+        margin-top: -100px;
+    }
+    .d11{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .d12{
+        width: 100%;
+        margin-left: -30px;
+    }
+    .d16{
+        width: 100%;
+        
+    }
+
+    .d17{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .d25{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main5{
+        width: 100%;
+        margin-top: 500px;
+    }
+    .main10{
+        margin-top: 700px;
+    }
+    .main10{
+        height: 1700px;
+        width: 480px;
+        position: relative;
+        top: 700px;
+    }
+    .main10 .s18{
+        width: 450px;
+    }
+    .main10 .main11{
+        height: 1250px;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main10 .main11 .s19{
+        height: 370px;
+        width: 450px;
+        /* margin-left: 25px; */
+    }
+    .main10 .main11 .s19 #p3{
+        width: 400px;
+    }
+    
+    .main12{
+        height: 1600px;
+        width: 480px;
+        position: relative;
+        top: 1100px;
+    }
+    .main13{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main13 .s23{
+        height: 400px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .main13 .s24{
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .main14{
+        height: 1500px;
+        position: relative;
+        top: 1100px;
+        width: 480px;
+    }
+    .main14 p{
+        width: 80%;
+    }
+    .main15{
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main15 .s25{
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .main16{
+        position: relative;
+        top: 1100px;
+        width: 480px;
+    }
+    .main16 img{
+        width: 12%;
+        margin-top: 15%;
+    }
+    
+    footer{
+        height: 1800px;
+        width: 480px;
+        position: relative;
+        top: 1100px;
+    }
+    .main17{
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #s27{
+        width: 100%;
+    }
+    .s27{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .main18{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main18 .s28{
+        width: 100%;
+    }
+    .main18 #s28 i{
+        margin-left: 55px;
+    }
+    .main18 .s28 p{
+        margin-left: 30px;
+    }
+    footer h4{
+        position: relative;
+        top: 1000px;
+        width: 80%;
+    }
+
+}
+@media(min-width:481px) and (max-width:720px)
+{
+    header{
+        width: 100%;
+    }
+    .nav1{
+        margin-left: -150px;
+    }
+    .nav3{
+        position: relative;
+        top: -92px;
+        left: 150px;
+    }
+    .nav4{
+        position: relative;
+        top: -92px;
+        left: 130px;
+    }
+        .nav5{
+        display: none;
+    } 
+       .nav6{
+        display: none;
+    }
+    .nav7{
+        display: none;
+    }
+    .nav2 button{
+        margin-top: -200px;
+        position: relative;
+        top: -92px;
+        left: 40px;
+    }
+    #nav1{
+        display: block;
+        margin-left: -100px;
+        margin-top: -00px;
+        position: relative;
+        top: -10px;
+    }
+
+    .d1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -60px;
+    }
+    .d5{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 200px;
+    }
+    .d6{
+        width: 100%;
+    }
+    .d7{
+        width: 100%;
+    }
+    .d2{
+        width: 100%;
+    }
+    .d4{
+        position: relative;
+        width: 100%;
+    }
+    .d8 input{
+        width: 230px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    .d8 button{
+        width: 220px;
+    }
+    .d8 p span{
+        margin-left: 0px;
+
+    }
+    .d4 h1 span{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .d4 p{
+        margin-top: -110px;
+    }
+    .d3{
+        width: 100%;
+        margin-top: -250px;
+        background-size: 100% 100%;
+        height: 400px;
+    }
+    .main2{
+        width: 100%;
+        margin-top: 200px;
+    }
+    .d9{
+        width: 100%;
+    }
+    .d9 p{
+        margin-top: -100px;
+    }
+    .main2{
+        width: 100%;
+        margin-top: 250px;
+    }
+    .d9{
+        width: 100%;
+    }
+    .d9 p{
+        margin-top: -100px;
+    }
+    .d11{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .d12{
+        width: 100%;
+        margin-left: -30px;
+    }
+    .d16{
+        width: 100%;
+        
+    }
+
+    .d17{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .d25{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main5{
+        width: 100%;
+        margin-top: 500px;
+    }
+    .main10{
+        height: 1700px;
+        width: 720px;
+        position: relative;
+        top: 1200px;
+    }
+    .main10 .main11{
+        height: 1250px;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main10 .main11 .s19{
+        height: 370px;
+        width: 450px;
+        margin-left: 25px;
+    }
+    .main10 .main11 .s19 #p3{
+        width: 400px;
+    }
+    .main12{
+        height: 1600px;
+        width: 720px;
+        position: relative;
+        top: 1100px;
+    }
+    .main13{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main13 .s23{
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .main13 .s24{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .main14{
+        height: 1500px;
+        position: relative;
+        top: 1100px;
+        width: 720px;
+    }
+    
+    .main14 p{
+        width: 80%;
+    }
+    .main15{
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main15 .s25{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .main16{
+        position: relative;
+        top: 1100px;
+        width: 100%;
+    }
+    .main16 img{
+        width: 12%;
+        margin-top: 15%;
+    }
+    
+    footer{
+        height: 1800px;
+        width: 480px;
+        position: relative;
+        top: 1100px;
+    }
+    .main17{
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #s27{
+        width: 100%;
+    }
+    .s27{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .main18{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main18 .s28{
+        width: 100%;
+    }
+    .main18 #s28 i{
+        margin-left: 55px;
+    }
+    .main18 .s28 p{
+        margin-left: 30px;
+    }
+    footer h4{
+        position: relative;
+        top: 1000px;
+    }
+
+}

@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.text-color {
+    color: #c5ac76;
+}
+
+.small-text {
+    color: #727272;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.great-text {
+    font-family: "Great Vibes", cursive;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.main {
+    border: 1px solid;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/101.jpg);
+    background-position: center;
+    background-size: 105% 122%;
+}
+
+.main1 {
+    width: 120%;
+    background-color: #7373734d;
+}
+
+.main1 .col i,
+span {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.c1 {
+    margin-left: 7%;
+}
+
+.main2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.c2 a {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.c3 a {
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 28px;
+    padding: 13px 20px 13px 20px;
+}
+
+.btn1 {
+    padding: 13px 20px 13px 20px;
+    border-radius: 5px;
+    background-color: #c5ac76;
+    color: white;
+    border: 0px solid;
+}
+
+.main-2 {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.h2-1 {
+    font-size: 80px;
+}
+
+.main-2 h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+
+.main-3 {
+    padding-top: 8.5%;
+    padding-bottom: 1%;
+}
+
+.main-3 .col {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.d1 {
+    height: 90px;
+    width: 90px;
+    /* border: 1px solid; */
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.d1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.main-3 h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    line-height: 27px;
+
+}
+
+.main-3 p {
+    font-size: 14px;
+    color: white;
+    /* line-height: 28px; */
+    margin-top: -10px;
+}
+
+
+.main3 {
+    height: 100vh;
+    padding: 119px 0px 119px 0px;
+}
+
+.d2 {
+    display: flex;
+    justify-content: center;
+}
+
+.d3 {
+    height: 520px;
+    width: 309.48px;
+    margin: -30px 8px 0px 0px;
+    margin-left: 13%;
+    background-image: url(/img/108.jpg);
+    background-position: center;
+    background-size: 240% 100%;
+}
+
+.d4 {
+    height: 520px;
+    width: 309.48px;
+    background-image: url(/img/109.jpg);
+    background-size: 240% 100%;
+    background-position: center;
+    margin-left: 8px;
+}
+
+.c4 span {
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.c4 h2 {
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+    line-height: 60px;
+    margin-top: -6.5%;
+    margin: -6.5% 0px 24px 0px;
+}
+
+.c4 p {
+    font-size: 17px;
+    line-height: 34px;
+    color: #666666;
+    margin: 0px 0px 16px 0px;
+}
+
+.c4 h4 {
+    font-size: 17px;
+    line-height: 34px;
+    color: #666666;
+}
+
+.c4 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+@media(max-width:995px) {
+    #c4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.r1 {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.r1 h1 {
+    color: #c5ac76;
+    font-weight: 600;
+}
+
+.r1 p {
+    margin-top: -7%;
+}
+
+@media(max-width:770px) {
+    .r1 p {
+        margin-top: 10px;
+    }
+}
+
+.main4 {
+    height: 100vh;
+    border: 1px solid;
+    background-color: #fafafa;
+    margin-top: 100px;
+    padding: 119px 0px 119px 0px;
+}
+.r2 span{
+    font-size: 100px;
+    line-height: 100px;
+}
+.r2 h2{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-top: -55px;
+
+}
+
+.r3{
+    border: 1px solid ;
+    padding-top: 10%;
+}
+.r3 .col{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.r3 .col i{
+    font-size:54px ;
+    line-height: 70.2px;
+    color: #c8a97e;
+}
+.r3 h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+.r3 p{
+    font-size: 17px;
+    line-height: 34px;
+    text-align: center;
+}
